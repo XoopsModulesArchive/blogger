@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+/*
+// ------------------------------------------------------------------------- //
+//                           Blogger.com for Xoopsv2.x                       //
+// ------------------------------------------------------------------------- //
+// Author: Arsenic                                                           //
+// URL: http://www.arsenic-design.net                                        //
+//---------------------------------------------------------------------------//
+*/
+</style>
+<title>Install of Blogger.com for Xoopsv2.x</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://arsenic2.tonsite.biz/themes/arsenic-design-v1/style.css">
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="itemHead">Register on Blogger.com</td></tr>
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%">
+<font Style="font-size: 11px;">
+<p>Register on <a href="http://www.blogger.com" target="_blank">www.blogger.com</a></p>
+<p align="center">
+<img src="images/step1.png" border="0"  width="650">
+<br><br>
+<img src="images/step1-a.png" border="0"  width="650">
+<br><br>
+<img src="images/step1-b.png" border="0"  width="650">
+<br><br>
+<img src="images/step1-c.png" border="0"  width="650">
+<br><br>
+<img src="images/step1-d.png" border="0"  width="650">
+<br><br>
+<img src="images/step1-e.png" border="0" width="650">
+</p>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="itemHead">Installation du Template</td></tr>
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%">
+<font Style="font-size: 11px;">
+<p align="center">
+<br><br>
+<img src="images/step2-a.png" border="0"  width="650"></p>
+<p>
+Open /install/blogger-template.html
+</p>
+<p>Search :<br>
+<textarea name="temp" cols="120" rows="2">
+<link rel="stylesheet" type="text/css" media="all" href="http://arsenic2.tonsite.biz/themes/arsenic-design-v1/style.css">
+</textarea>
+</p>
+<p>Replace :<br>
+<textarea name="temp" cols="120" rows="2">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.mysite.com/themes/mytheme/style.css">
+</textarea>
+<br>
+<p>Search  :<br>
+<textarea name="temp" cols="120" rows="2">
+http://arsenic2.tonsite.biz/modules/blogger/lang/
+</textarea>
+</p>
+<p>Replace :<br>
+<textarea name="temp" cols="120" rows="2">
+http://www.mysite.com/modules/blogger/lang/
+</textarea>
+</p>
+<p align="center">
+<img src="images/step2-b.png" border="0"  width="650">
+</p>
+<p>
+CTRL+A -> CTRL+C -> CTRL+v , clique on "Save Template changes" 
+</p>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="itemHead">Archives Configuration</td></tr>
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%">
+<font Style="font-size: 11px;">
+<p align="center">
+<img src="images/step3.png" border="0" width="650">
+</p>
+<p>open /blogger/archives.php</p>
+<br>
+<p>Search  :<br>
+<textarea name="temp" cols="120" rows="2">
+<link rel="stylesheet" type="text/css" media="all" href="http://arsenic2.tonsite.biz/themes/arsenic-design-v1/style.css">
+</textarea>
+</p>
+<p>Replace :<br>
+<textarea name="temp" cols="120" rows="2">
+<link rel="stylesheet" type="text/css" media="all" href="http://www.mysite.com/themes/mytheme/style.css">
+</textarea>
+</p>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="itemHead">Style.css Configuration</td></tr>
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%">
+<font Style="font-size: 11px;">
+<p>Open xoops/themes/yourtheme/style.css add and optimiz this code for your design
+<br>
+<textarea name="temp" cols="120" rows="10">
+.itemHead {color: #25C2F8; border-top: 1px solid #383838; border-left: 1px solid #383838; border-right: 1px solid #383838; padding: 4px; background: url(images/item_head.gif); font-weight: bold; font-size: 11px; font-family: sans-serif; font: Verdana; height: 18px}
+
+.itemBody {color: #A2BADA; font-family: sans-serif; font-weight: bold; font-size: 11px; font: Verdana, Arial Black; text-decoration: none; border-left: 1px solid #383838; border-right: 1px solid #383838; padding: 2px; background: #2458A6;}
+
+.barbloc {background-color: #E9E9E9; background: url(images/bar_bloc.gif); border: 1px solid #383838; color: #333333; font-weight: bold; font-size: 11px; font-family: sans-serif; font: Verdana; padding: 2px; height: 6px}
+</textarea>
+</p>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="itemHead">Configuration & install of Blogger.com for Xoopsv2.x</td></tr>
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%">
+<font Style="font-size: 11px;">
+<p>To modify the leading article, publish the file edito.txt, to modify the texts, publish the file conf.inc.php and the txt files of the repertoire include.  Then uploader all contents of the zip on your ftp in the file/modules/and to install the module since the admin of xoops.</p>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="itemHead">Beta test</td></tr>
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%">
+<font Style="font-size: 11px;">
+<p>This module is in beta test and I count the amélliorer for me to be used about it as gestionaire as news.<br > Donc if you have suggestions or remarks to be made contact to me by the intermédiare my site.</p>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+<table border="0" cellpadding="0" cellspacing="0" width="780" class="item" align="center">
+<tr><td class="barbloc" height="10"></td></tr>
+<tr><td class="itemBody" valign="top" width="100%" align="center">
+<a href="http://www.arsenic-design.net">Arsenic-Design.net</a>
+</td></tr><tr><td class="barbloc" height="10"></td></tr></table><br>
+</body>
+</html>
